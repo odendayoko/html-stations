@@ -18,7 +18,6 @@ function getData() {
       is_student: true,
     },
   ];
-  console.log(test.map(buildFullName));
   return test.map(buildFullName);
 }
 
